@@ -1,1 +1,70 @@
-Hello World
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Складені селектори CSS</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <h1>Селектори CSS. Приклади</h1>
+
+    <section>
+        <h2>Приклад 1</h2>
+        <div class="note">
+            <p>Селектор: <code>section .note</code>; вага: 0,0,1,1</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Приклад 2</h2>
+        <div class="info-block">
+            <p class="highlight">Селектор: <code>section div.info-block p.highlight</code>; вага: 0,0,2,2</p>
+        </div>
+    </section>
+
+    <main>
+        <p id="main-paragraph">Селектор: <code>#main-paragraph</code>; вага: 0,1,0,0</p>
+    </main>
+
+    <div class="wrap">
+        <p data-type="info">Селектор: <code>div.wrap p[data-type="info"]</code>; вага: 0,0,2,2</p>
+    </div>
+
+    <section class="block">
+        <h2>Приклад 3</h2>
+        <div class="card">Селектор: <code>section.block .card</code>; вага: 0,0,2,1</div>
+    </section>
+
+    <div class="outer">
+        <span class="inner">Селектор: <code>div.outer > span.inner</code>; вага: 0,0,2,2</span>
+    </div>
+
+    <div>
+        <p class="first second" data-role="example">Селектор: <code>div p.first.second[data-role]</code>; вага: 0,0,3,2
+        </p>
+    </div>
+
+    <ul>
+        <li class="item selected">Селектор: <code>ul > li.item.selected</code>; вага: 0,0,2,2</li>
+    </ul>
+
+    <div class="grid">
+        <article class="card" id="unique">
+            <h2>Унікальний елемент</h2>
+            <p>Селектор: <code>.grid article.card#unique</code>; вага: 0,1,1,2</p>
+        </article>
+    </div>
+
+    <div class="combo">
+        <p class="alpha beta gamma" data-attr="yes">Селектор: <code>.combo p.alpha.beta.gamma[data-attr="yes"]</code>;
+            вага:
+            0,0,4,2</p>
+    </div>
+
+</body>
+
+</html>

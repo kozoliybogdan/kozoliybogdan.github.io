@@ -1,0 +1,62 @@
+/* 0,0,1,1 */
+section .note {
+    background-color: black;
+    padding: 10px;
+}
+
+/* 0,0,2,2 */
+section div.info-block p.highlight {
+    background-color: #f0f8ff;
+    font-weight: bold;
+}
+
+/* 0,1,0,0 */
+#main-paragraph {
+    background-color: #e6e6fa;
+    border-left: 5px solid #6a5acd;
+    padding-left: 10px;
+}
+
+/* 0,0,2,2 */
+div.wrap p[data-type="info"] {
+    background-color: #f5f5f5;
+    border: 1px dashed gray;
+}
+
+/* 0,0,2,1 */
+section.block .card {
+    background-color: #dff0d8;
+    padding: 8px;
+    font-style: italic;
+}
+
+/* 0,0,2,2 */
+div.outer>span.inner {
+    background-color: #ffe0e0;
+    padding: 6px;
+}
+
+/* 0,0,3,2 */
+div p.first.second[data-role] {
+    background-color: #e0ffff;
+    color: #333;
+}
+
+/* 0,0,2,2 */
+ul>li.item.selected {
+    background-color: #fdfd96;
+    list-style-type: square;
+}
+
+/* 0,1,1,2 */
+.grid article.card#unique {
+    background-color: #cde7f0;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+/* 0,0,4,2 */
+.combo p.alpha.beta.gamma[data-attr="yes"] {
+    background-color: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
